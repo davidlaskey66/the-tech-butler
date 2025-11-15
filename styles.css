@@ -1,1 +1,69 @@
 
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #444;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.services {
+    padding: 40px 20px;
+    background: white;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.service-card {
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.service-card h3 {
+    margin-top: 0;
+}
+
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    margin-top: 40px;
+}
