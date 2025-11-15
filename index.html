@@ -1,58 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Tech Butler</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Tech Butler – Smart Home Setup</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-
-<header class="site-header">
-  <img src="assets/the_tech_butler_logo_80x80.png" alt="The Tech Butler Logo" class="site-logo">
-</header>
-
-
-<section class="hero">
-    <img src="assets/header.jpg" alt="Hero Image">
-</section>
-
-<section class="services">
-    <h2>Smart Home Services</h2>
-    <div class="service-grid">
-        <div class="service-card">
-            <h3>Smart Plugs & Switches</h3>
-            <p>Installation, configuration, and automation routines.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>Smart Outlets</h3>
-            <p>Convert your home into a safe, automated environment.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>Smart Blinds</h3>
-            <p>Smooth, quiet motorized blind setup with remote or app control.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>Voice & App Integration</h3>
-            <p>Alexa, Google Home, SmartThings, and Apple Home automation.</p>
-        </div>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo-and-name">
+      <img src="assets/the_tech_butler_logo_80x80.png"
+           alt="The Tech Butler Logo"
+           class="site-logo" />
+      <div class="site-title-group">
+        <div class="site-title">The Tech Butler</div>
+        <div class="site-tagline">Smart home setup & automation</div>
+      </div>
     </div>
-</section>
+    <nav class="site-nav">
+      <a href="#services">Services</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:info@thetechbutler.com">info@thetechbutler.com</a></p>
-    <p>Phone: 519-671-2016</p>
-</section>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Simplify your home technology.</h1>
+        <p class="hero-subtitle">
+          If it plugs in, connects to Wi-Fi, or needs a routine,
+          <strong>The Tech Butler</strong> can set it up and keep it behaving.
+        </p>
+        <ul class="hero-list">
+          <li>Smart plugs, switches & outlets</li>
+          <li>Smart blinds & lighting scenes</li>
+          <li>Wi-Fi, apps & voice assistants working together</li>
+        </ul>
+        <a href="#contact" class="btn-primary">Request a setup</a>
+      </div>
+    </section>
 
-<footer>
-    <p>© 2025 The Tech Butler. All rights reserved.</p>
-</footer>
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Smart plugs & switches</h3>
+          <p>Install and configure smart plugs, switches, and outlets so your lamps, appliances, and devices can be scheduled or voice-controlled.</p>
+        </article>
+        <article class="card">
+          <h3>Smart blinds & lighting</h3>
+          <p>Set up smart blinds and lighting scenes so your home adjusts automatically for comfort, security, and energy savings.</p>
+        </article>
+        <article class="card">
+          <h3>Wi-Fi & app setup</h3>
+          <p>Clean, stable Wi-Fi; connect all your devices; and make sure the right apps are installed and talking to each other.</p>
+        </article>
+        <article class="card">
+          <h3>Routines & automations</h3>
+          <p>Create easy routines like “Good Morning”, “Movie Night”, or “Away From Home” that just work when you need them.</p>
+        </article>
+        <article class="card">
+          <h3>Troubleshooting & tune-ups</h3>
+          <p>Fix flaky devices, confusing apps, and “why doesn’t this work?” problems with clear explanations and simple setups.</p>
+        </article>
+      </div>
+    </section>
 
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section section-alt">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <strong>Quick chat.</strong>
+          You tell me what you have today and what you want to be able to do.
+        </li>
+        <li>
+          <strong>Simple plan.</strong>
+          I suggest a setup using the gear you already own, plus options if anything is missing.
+        </li>
+        <li>
+          <strong>On-site setup.</strong>
+          Everything gets installed, connected, tested, and walked through with you.
+        </li>
+        <li>
+          <strong>Clear hand-off.</strong>
+          You get a simple guide and know which app/button/voice command does what.
+        </li>
+      </ol>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About The Tech Butler</h2>
+      <p>
+        The Tech Butler is a hands-on home technology service focused on making
+        everyday devices easy instead of frustrating. From smart plugs and blinds
+        to scenes, routines, and voice control, the goal is simple:
+        technology that quietly does its job in the background so you don’t have to think about it.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <h2>Request a setup</h2>
+      <p>
+        Ready to tame your tech? Send a quick email with what you’d like help with,
+        and I’ll follow up with options and timing.
+      </p>
+      <p class="contact-email">
+        <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> The Tech Butler. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Keep the year up to date automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
 
