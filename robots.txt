@@ -1,1 +1,4 @@
-temp
+User-agent: *
+Allow: /
+
+Sitemap: https://thetechbutler.ca/sitemap.xml
