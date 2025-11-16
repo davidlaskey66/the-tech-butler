@@ -38,10 +38,11 @@ main {
 }
 
 .site-logo {
-  height: 100px;
-  width: 100px;
+  height: 140px;
+  width: auto;
   border-radius: 8px;
 }
+
 
 .site-title-group {
   display: flex;
