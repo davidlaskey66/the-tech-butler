@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="description" content="Smart home automation, setup, troubleshooting, and device integration in Collingwood Ontario and surrounding area including Wasaga Beach and Blue Mountains">
-<meta name="robots" content="index, follow">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Tech Butler – Smart Home Setup</title>
+
+  <title>The Tech Butler | Smart Home Setup & Automation in Collingwood & Blue Mountains</title>
+
+  <meta name="description" content="Smart home automation, setup, troubleshooting, and device integration in Collingwood, Ontario and surrounding area including Wasaga Beach and Blue Mountains." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph (social + Google) -->
+  <meta property="og:title" content="The Tech Butler – Smart Home Setup & Automation" />
+  <meta property="og:description" content="Hands-on smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario." />
+  <meta property="og:url" content="https://thetechbutler.ca/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://thetechbutler.ca/assets/the_tech_butler_logo_300x300.png" />
+
+  <!-- Twitter card (optional but nice) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Tech Butler – Smart Home Setup & Automation" />
+  <meta name="twitter:description" content="Smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario." />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,10 +28,10 @@
   <header class="site-header">
     <div class="logo-and-name">
       <img src="assets/the_tech_butler_logo_300x300.png"
-           alt="The Tech Butler Logo"
+           alt="The Tech Butler smart home setup and automation logo"
            class="site-logo" />
       <div class="site-title-group">
-        <div class="site-title"></div>
+        <div class="site-title">The Tech Butler – Smart Home Setup & Automation</div>
         <div class="site-tagline">We Tidy Up Your Tech</div>
       </div>
     </div>
@@ -32,9 +47,9 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Simplify your home technology.</h1>
+        <h1>Smart Home Setup & Automation in Collingwood, Blue Mountains & Wasaga Beach</h1>
         <p class="hero-subtitle">
-          If it plugs in, connects to Wi-Fi, or needs a routine,
+          Simplify your home technology. If it plugs in, connects to Wi-Fi, or needs a routine,
           <strong>The Tech Butler</strong> can set it up and keep it behaving.
         </p>
         <ul class="hero-list">
@@ -70,9 +85,9 @@
           <h3>Troubleshooting & tune-ups</h3>
           <p>Fix flaky devices, confusing apps, and “why doesn’t this work?” problems with clear explanations and simple setups.</p>
         </article>
-         <article class="card">
+        <article class="card">
           <h3>Something missing?</h3>
-          <p>Are you looking for a service that isn't listed? Just ask as we can probably do it. </p>
+          <p>Are you looking for a service that isn't listed? Just ask as we can probably do it.</p>
         </article>
       </div>
     </section>
@@ -111,6 +126,15 @@
       </p>
     </section>
 
+    <!-- SERVICE AREA (new, for local SEO) -->
+    <section class="section">
+      <h2>Service area</h2>
+      <p>
+        The Tech Butler provides smart home setup and automation services in
+        Collingwood, Blue Mountains, Wasaga Beach, Thornbury, Meaford, and the surrounding Ontario area.
+      </p>
+    </section>
+
     <!-- CONTACT -->
     <section id="contact" class="section section-alt">
       <h2>Connect with us</h2>
@@ -119,20 +143,45 @@
         and I’ll follow up with options and timing.
       </p>
       <p class="contact-email">
-        <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a>
+        <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a><br />
+        Phone: <a href="tel:+15196712016">519-671-2016</a><br />
+        Based in Collingwood, Ontario
       </p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> The Tech Butler. All rights reserved.</p>
+    <p>© <span id="year"></span> The Tech Butler. Smart home setup & automation in Collingwood, Blue Mountains & Wasaga Beach.</p>
   </footer>
 
   <script>
     // Keep the year up to date automatically
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
+  <!-- LocalBusiness schema for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "The Tech Butler",
+    "image": "https://thetechbutler.ca/assets/the_tech_butler_logo_300x300.png",
+    "url": "https://thetechbutler.ca/",
+    "telephone": "+1-519-671-2016",
+    "email": "info@thetechbutler.ca",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Collingwood",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Collingwood" },
+      { "@type": "City", "name": "Blue Mountains" },
+      { "@type": "City", "name": "Wasaga Beach" }
+    ],
+    "description": "Smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario."
+  }
+  </script>
 </body>
 </html>
-
-
