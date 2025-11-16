@@ -1,1 +1,37 @@
-temp
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://thetechbutler.ca/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Anchored sections (optional but helpful for Google indexing) -->
+  <url>
+    <loc>https://thetechbutler.ca/#services</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/#how-it-works</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/#about</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/#contact</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Service area (optional future-proofing, even if same page) -->
+  <url>
+    <loc>https://thetechbutler.ca/#service-area</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
