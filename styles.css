@@ -1,21 +1,28 @@
-/* Horizontal card row (Property Check-Ins) */
+/* Property Check-Ins: horizontal card row */
 
 .card-row {
   display: flex;
   gap: 16px;
   margin-top: 12px;
   overflow-x: auto;
-  padding-bottom: 8px;
+  padding: 4px 2px 12px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
 }
 
 .card-row .card {
-  flex: 0 0 320px;        /* card width in the horizontal row */
+  flex: 0 0 320px;
   scroll-snap-align: start;
 }
 
-/* Make the row feel nicer when scrolling */
+/* Smaller cards on small screens so it feels nicer */
+@media (max-width: 720px) {
+  .card-row .card {
+    flex-basis: 280px;
+  }
+}
+
+/* Optional: subtle scrollbar styling (WebKit only) */
 .card-row::-webkit-scrollbar {
   height: 10px;
 }
