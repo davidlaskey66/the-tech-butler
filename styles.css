@@ -1,122 +1,279 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+/* Global */
 
-  <title>The Tech Butler | Smart Home Setup & Automation in Collingwood & Blue Mountains</title>
+* {
+  box-sizing: border-box;
+}
 
-  <meta name="description" content="Property check-ins and light property management support for absentee owners plus smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario." />
-  <meta name="robots" content="index, follow" />
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #111827;
+  background: #f3f4f6;
+}
 
-  <!-- Open Graph (social + Google) -->
-  <meta property="og:title" content="The Tech Butler – Smart Home Setup & Automation" />
-  <meta property="og:description" content="Property check-ins for absentee owners plus hands-on smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario." />
-  <meta property="og:url" content="https://thetechbutler.ca/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://thetechbutler.ca/assets/the_tech_butler_logo_300x300.png" />
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
 
-  <!-- Twitter card -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The Tech Butler – Smart Home Setup & Automation" />
-  <meta name="twitter:description" content="Property check-ins for absentee owners plus smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario." />
+/* Header */
 
-  <link rel="stylesheet" href="styles.css" />
-</head>
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 
-<body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="logo-and-name">
-      <img
-        src="assets/the_tech_butler_logo_300x300.png"
-        alt="The Tech Butler smart home setup and automation logo"
-        class="site-logo"
-      />
-      <div class="site-title-group">
-        <div class="site-title">The Tech Butler – Smart Home Setup & Automation</div>
-        <div class="site-tagline">We Tidy Up Your Tech</div>
-      </div>
-    </div>
+.logo-and-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
-    <nav class="site-nav">
-      <a href="#services">Services</a>
-      <a href="#property-checkins">Property Check-Ins</a>
-      <a href="#short-term-accommodations">Short Term</a>
-      <a href="#how-it-works">How it works</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+.site-logo {
+  height: 200px;
+  width: auto;
+  border-radius: 8px;
+}
 
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Smart Home Setup & Automation in Collingwood, Blue Mountains & Wasaga Beach</h1>
-        <p class="hero-subtitle">
-          Simplify your home technology. If it plugs in, connects to Wi-Fi, or needs a routine,
-          <strong>The Tech Butler</strong> can set it up and keep it behaving.
-        </p>
-        <ul class="hero-list">
-          <li>Smart plugs, switches & outlets</li>
-          <li>Smart blinds & lighting scenes</li>
-          <li>Wi-Fi, apps & voice assistants working together</li>
-        </ul>
-        <a href="#contact" class="btn-primary">Connect with us</a>
-      </div>
-    </section>
+.site-title-group {
+  display: flex;
+  flex-direction: column;
+}
 
-    <!-- SERVICES -->
-    <section id="services" class="section">
-      <h2>Services</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Smart plugs & switches</h3>
-          <p>Install and configure smart plugs, switches, and outlets so your lamps, appliances, and devices can be scheduled or voice-controlled.</p>
-        </article>
+.site-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
 
-        <article class="card">
-          <h3>Smart blinds & lighting</h3>
-          <p>Set up smart blinds and lighting scenes so your home adjusts automatically for comfort, security, and energy savings.</p>
-        </article>
+.site-tagline {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
 
-        <article class="card">
-          <h3>Wi-Fi & app setup</h3>
-          <p>Clean, stable Wi-Fi; connect all your devices; and make sure the right apps are installed and talking to each other.</p>
-        </article>
+.site-nav {
+  display: flex;
+  gap: 16px;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+}
 
-        <article class="card">
-          <h3>Routines & automations</h3>
-          <p>Create easy routines like “Good Morning”, “Movie Night”, or “Away From Home” that just work when you need them.</p>
-        </article>
+.site-nav a {
+  text-decoration: none;
+  color: #374151;
+}
 
-        <article class="card">
-          <h3>Troubleshooting & tune-ups</h3>
-          <p>Fix flaky devices, confusing apps, and “why doesn’t this work?” problems with clear explanations and simple setups.</p>
-        </article>
+.site-nav a:hover {
+  color: #111827;
+}
 
-        <article class="card">
-          <h3>Property check-ins for absentee owners</h3>
-          <p>Weekly or monthly visual check-ins with a photo report, notes, and recommended next steps. Ideal for second homes and owners who are away.</p>
-        </article>
+/* Hero */
 
-        <article class="card">
-          <h3>Something missing?</h3>
-          <p>Are you looking for a service that isn't listed? Just ask as we can probably do it.</p>
-        </article>
-      </div>
-    </section>
+.hero {
+  background: #e5f0ff;
+  border-bottom: 1px solid #d1d5db;
+}
 
-    <!-- PROPERTY CHECK-INS -->
-    <section id="property-checkins" class="section section-alt">
-      <h2>Property Check-Ins</h2>
-      <p><strong>Light Property Management Support</strong></p>
+.hero-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 16px 48px;
+}
 
-      <div class="card-row" aria-label="Property check-in details">
-        <article class="card">
-          <h3>Standard visit</h3>
-          <ul>
-            <li>Exterior walk-around for visible issues such as damage, standing water, and entry points</li>
-            <li>Interior
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 640px;
+}
+
+.hero-list {
+  margin: 16px 0 24px;
+  padding-left: 20px;
+  color: #4b5563;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+/* Sections */
+
+.section {
+  padding: 40px 0 32px;
+}
+
+.section h2 {
+  margin-bottom: 16px;
+  font-size: 1.6rem;
+}
+
+.section p {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.section-alt {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Cards */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 18px;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Allow multi-paragraph cards without breaking existing ones */
+.card p + p {
+  margin-top: 10px;
+}
+
+/* Steps */
+
+.steps {
+  margin: 0;
+  padding-left: 18px;
+  color: #374151;
+}
+
+.steps li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Contact */
+
+.contact-email {
+  margin-top: 12px;
+  font-size: 1.05rem;
+}
+
+.contact-email a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.contact-email a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.site-footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Lists inside cards (Property Check-Ins + Short Term cards) */
+
+.card ul,
+.card ol {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: #374151;
+}
+
+.card li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* Horizontal card row (Property Check-Ins) */
+
+.card-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  overflow-x: auto;
+  padding: 4px 2px 12px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.card-row .card {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 720px) {
+  .card-row .card {
+    flex-basis: 280px;
+  }
+}
+
+/* Optional scrollbar polish (WebKit only) */
+.card-row::-webkit-scrollbar {
+  height: 10px;
+}
+
+.card-row::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 999px;
+}
+
+.card-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Responsive tweaks */
+
+@media (max-width: 720px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
 
