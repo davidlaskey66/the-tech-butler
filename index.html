@@ -21,8 +21,8 @@
   <meta name="twitter:title" content="The Tech Butler – Smart Home Setup & Automation" />
   <meta name="twitter:description" content="Property check-ins for absentee owners plus smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario." />
 
- <link rel="stylesheet" href="/styles.css?v=3" />
-
+  <!-- IMPORTANT: absolute path + cache bust so CSS always loads -->
+  <link rel="stylesheet" href="/styles.css?v=3" />
 </head>
 
 <body>
@@ -30,7 +30,7 @@
   <header class="site-header">
     <div class="logo-and-name">
       <img
-        src="assets/the_tech_butler_logo_300x300.png"
+        src="/assets/the_tech_butler_logo_300x300.png"
         alt="The Tech Butler smart home setup and automation logo"
         class="site-logo"
       />
@@ -234,32 +234,54 @@
     </section>
 
     <!-- CONTACT -->
-   <section id="contact" class="section section-alt">
-  <h2>Contact</h2>
-  <p>
-    Interested in a setup, check-in service, or a quick chat about options?
-    Reach out and I’ll get back to you with availability and next steps.
-  </p>
+    <section id="contact" class="section section-alt">
+      <h2>Contact</h2>
+      <p>
+        Interested in a setup, check-in service, or a quick chat about options?
+        Reach out and I’ll get back to you with availability and next steps.
+      </p>
 
-  <p class="contact-email">
-    <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a><br />
-    Phone: <a href="tel:+15196712016">519-671-2016</a><br />
-    Collingwood, Blue Mountains, Wasaga Beach and nearby communities
-  </p>
+      <p class="contact-email">
+        <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a><br />
+        Phone: <a href="tel:+15196712016">519-671-2016</a><br />
+        Collingwood, Blue Mountains, Wasaga Beach and nearby communities
+      </p>
 
-  <a href="mailto:info@thetechbutler.ca" class="btn-primary">Email us</a>
-</section>
-
+      <a href="mailto:info@thetechbutler.ca" class="btn-primary">Email us</a>
+    </section>
   </main>
 
   <footer class="site-footer">
-  <p>© <span id="year"></span> The Tech Butler. Smart home setup & automation and property check-ins in Collingwood, Blue Mountains & Wasaga Beach.</p>
-</footer>
+    <p>© <span id="year"></span> The Tech Butler. Smart home setup & automation and property check-ins in Collingwood, Blue Mountains & Wasaga Beach.</p>
+  </footer>
 
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
+  <!-- LocalBusiness schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "The Tech Butler",
+    "image": "https://thetechbutler.ca/assets/the_tech_butler_logo_300x300.png",
+    "url": "https://thetechbutler.ca/",
+    "telephone": "+1-519-671-2016",
+    "email": "info@thetechbutler.ca",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Collingwood",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Collingwood" },
+      { "@type": "City", "name": "Blue Mountains" },
+      { "@type": "City", "name": "Wasaga Beach" }
+    ],
+    "description": "Property check-ins and light property management support for absentee owners plus smart home setup, automation, and troubleshooting in Collingwood, Blue Mountains, and Wasaga Beach, Ontario."
+  }
+  </script>
 </body>
 </html>
-
