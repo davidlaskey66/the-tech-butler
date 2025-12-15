@@ -233,20 +233,32 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section section-alt">
-      <h2>Contact</h2>
-      <p>Interested in a setup, check-in service, or a chat about options? Reach out and I'll get back to you with availability and next steps.</p>
-      <ul>
-        <li>Email: <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a></li>
-        <li>Phone: <a href="tel:+15196712016">+1 519-671-2016</a></li>
-      </ul>
-      <a href="mailto:info@thetechbutler.ca" class="btn-primary">Email us</a>
-    </section>
+   <section id="contact" class="section section-alt">
+  <h2>Contact</h2>
+  <p>
+    Interested in a setup, check-in service, or a quick chat about options?
+    Reach out and I’ll get back to you with availability and next steps.
+  </p>
+
+  <p class="contact-email">
+    <a href="mailto:info@thetechbutler.ca">info@thetechbutler.ca</a><br />
+    Phone: <a href="tel:+15196712016">519-671-2016</a><br />
+    Collingwood, Blue Mountains, Wasaga Beach and nearby communities
+  </p>
+
+  <a href="mailto:info@thetechbutler.ca" class="btn-primary">Email us</a>
+</section>
+
   </main>
 
   <footer class="site-footer">
-    <p>© The Tech Butler — Smart Home Setup & Automation</p>
-  </footer>
+  <p>© <span id="year"></span> The Tech Butler. Smart home setup & automation and property check-ins in Collingwood, Blue Mountains & Wasaga Beach.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
 
