@@ -502,4 +502,13 @@ figure img {
     width: 100%;
     text-align: center;
   }
+  .info-box {
+  max-width: 980px;
+  margin: 2rem auto 3rem auto;
+  padding: 2rem;
+  background: #f5f5f5;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
 }
