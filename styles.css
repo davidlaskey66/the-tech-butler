@@ -149,6 +149,11 @@ li + li {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--bg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .logo-and-name {
