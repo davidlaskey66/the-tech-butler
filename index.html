@@ -1,35 +1,3 @@
-
-Last login: Sat Apr  4 11:46:17 on ttys001
-davidlaskey@MacBook-Pro ~ % cd "/Users/davidlaskey/Documents/GitHub/Vibe Code Project-1/bill-tracker"
-
-davidlaskey@MacBook-Pro bill-tracker % npm run dev
-
-bill-tracker@0.1.0 dev
-WATCHPACK_POLLING=true next dev --webpack -H localhost -p 3000
-
-⨯ Failed to start server
-Error: listen EADDRINUSE: address already in use ::1:3000
-    at <unknown> (Error: listen EADDRINUSE: address already in use ::1:3000) {
-  code: 'EADDRINUSE',
-  errno: -48,
-  syscall: 'listen',
-  address: '::1',
-  port: 3000
-}
-
-davidlaskey@MacBook-Pro bill-tracker %
-
-Show more
-11:49 AM
-Port 3000 is already in use. Run this to kill whatever's on it, then start dev again:
-
-bash
-lsof -ti:3000 | xargs kill -9 && npm run dev
-Or if you want to just run on a different port:
-
-bash
-npm run dev -- -p 3001
-
 <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <link rel="canonical" href="https://thetechbutler.ca/" /> <title>Smart Home Installation Collingwood | Thermostats, Doorbells, Automation | The Tech Butle
 
 pasted
