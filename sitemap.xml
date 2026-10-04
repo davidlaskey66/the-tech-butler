@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://thetechbutler.ca/</loc>
@@ -18,8 +16,8 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://thetechbutler.ca/smart-thermostat-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
+  <loc>https://thetechbutler.ca/smart-thermostat-installation-collingwood.html</loc>
+  <lastmod>2026-10-04</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -122,6 +120,5 @@
   <lastmod>2026-04-04T20:12:08+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>
