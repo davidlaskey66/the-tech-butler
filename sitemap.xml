@@ -1,124 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-  <loc>https://thetechbutler.ca/</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/smart-thermostat-installation-collingwood.html</loc>
-  <lastmod>2026-10-04</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/video-doorbell-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/smart-locks-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/tv-mounting-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/wifi-optimization-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/aging-in-place-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/assets/TechButlerAgingInPlaceGuide.pdf</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/index.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/professional-smart-home-installation.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/home-security-cameras-buying-guide.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/smart-lighting-home-upgrade.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/mesh-wifi-short-term-rentals.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/aging-in-place-smart-home-guide.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/smart-doorbell-vacation-property.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/smart-thermostat-canadian-winters.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/ring-vs-nest-doorbell.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/smart-home-cottage-owners.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/smart-lock-guide.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/airbnb-smart-home-tech.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/blog/wifi-mesh-network-guide.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://thetechbutler.ca/security-camera-collingwood.html</loc>
-  <lastmod>2026-04-04T20:12:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <url>
+    <loc>https://thetechbutler.ca/</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/smart-thermostat-installation-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/video-doorbell-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/smart-locks-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/tv-mounting-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/wifi-optimization-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/aging-in-place-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/security-camera-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/assets/TechButlerAgingInPlaceGuide.pdf</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/wifi-foundation-smart-home.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-home-security-checklist.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/whole-home-audio.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/best-smart-locks-collingwood.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/monitor-home-remotely.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-home-upgrades-property-value.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/google-home-vs-amazon-alexa.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/spring-smart-home-checklist.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/voice-assistant-smart-home.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-blinds-motorized-shades.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-home-water-leak-detection.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/property-check-in-technology.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-thermostat-spring-transition.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/professional-smart-home-installation.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/home-security-cameras-buying-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-lighting-home-upgrade.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/mesh-wifi-short-term-rentals.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/aging-in-place-smart-home-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-doorbell-vacation-property.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-thermostat-canadian-winters.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/ring-vs-nest-doorbell.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-home-vacation-property-owners.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/smart-lock-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/airbnb-smart-home-tech.html</loc>
+  </url>
+
+  <url>
+    <loc>https://thetechbutler.ca/blog/wifi-mesh-network-guide.html</loc>
+  </url>
 
 </urlset>
