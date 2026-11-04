@@ -226,14 +226,14 @@ main { display: block; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 70% 35%;
+  object-position: 75% 30%;
 }
 .hero-bg.is-portrait { left: auto; right: 0; width: 50%; object-position: 50% 15%; }
 .home-hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(246, 241, 233, 0.97) 0%, rgba(246, 241, 233, 0.9) 34%, rgba(246, 241, 233, 0.35) 54%, rgba(246, 241, 233, 0) 66%);
+  background: linear-gradient(90deg, rgba(246, 241, 233, 0.9) 0%, rgba(246, 241, 233, 0.72) 30%, rgba(246, 241, 233, 0.2) 50%, rgba(246, 241, 233, 0) 60%);
   z-index: 1;
   pointer-events: none;
 }
@@ -319,6 +319,9 @@ main { display: block; }
   position: relative;
   overflow: hidden;
 }
+.feature-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+.feature-card:hover .feature-media img { transform: scale(1.03); }
+@media (prefers-reduced-motion: reduce) { .feature-card:hover .feature-media img { transform: none; } }
 .feature-media.is-placeholder {
   background-image: linear-gradient(135deg, #e9e0d1 0%, #d9ccb6 100%);
   display: flex;
@@ -351,7 +354,7 @@ main { display: block; }
 .meet-text h2 { text-align: left; margin-bottom: 18px; }
 .meet-text p { max-width: 460px; color: var(--ink-2); font-weight: 300; font-size: 1.08rem; }
 .meet-photo { position: relative; overflow: hidden; }
-.meet-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 12%; }
+.meet-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 72% 30%; }
 .meet-photo::before {
   content: "";
   position: absolute;
@@ -362,7 +365,7 @@ main { display: block; }
 /* ---------- Closing CTA band ---------- */
 .cta-band {
   background: var(--navy);
-  background-image: linear-gradient(90deg, rgba(20, 31, 55, 0.92) 0%, rgba(27, 42, 74, 0.7) 100%), url('/assets/cta-lake-dusk.jpg');
+  background-image: linear-gradient(90deg, rgba(20, 31, 55, 0.7) 0%, rgba(27, 42, 74, 0.25) 100%), url('/assets/cta-lake-dusk.jpg');
   background-size: cover;
   background-position: center;
   padding: 96px 24px;
@@ -566,7 +569,7 @@ main { display: block; }
   .meet-band { grid-template-columns: 1fr; }
   .home-hero { display: block; min-height: 0; }
   .home-hero::after { display: none; }
-  .hero-bg, .hero-bg.is-portrait { position: relative; inset: auto; width: 100%; height: 520px; }
+  .hero-bg, .hero-bg.is-portrait { position: relative; inset: auto; width: 100%; height: 440px; object-position: 82% 30%; }
   .home-hero-inner { padding: 56px 24px; }
   .home-hero { display: flex; flex-direction: column-reverse; }
   .photo-caption { top: auto; bottom: 28px; }
@@ -594,7 +597,7 @@ main { display: block; }
   .section { padding: 64px 16px; }
   .hero { padding: 56px 16px 48px; }
   .meet-text { padding: 44px 16px; }
-  .hero-bg, .hero-bg.is-portrait { height: 460px; }
+  .hero-bg, .hero-bg.is-portrait { height: 340px; }
   .home-hero-inner { padding: 44px 16px; }
   .trust-strip ul { grid-template-columns: 1fr; gap: 12px; padding: 22px 16px; }
   .trust-strip li { justify-content: flex-start; }
