@@ -644,6 +644,9 @@ main { display: block; }
 .contact-side { display: grid; gap: 16px; }
 .contact-side .card { background: var(--paper); padding: 22px 24px; }
 .contact-side .card h3 { font-size: 1.25rem; margin-bottom: 4px; }
+.form-status { padding: 16px 18px; border-radius: 2px; font-size: 0.98rem; line-height: 1.6; }
+.form-status.is-error { background: var(--cream-2); border-left: 2px solid var(--gold-ink); color: var(--ink); }
+.contact-form button[disabled] { opacity: 0.7; cursor: wait; }
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
