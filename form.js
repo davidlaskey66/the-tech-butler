@@ -2,7 +2,7 @@
    Sends in the background; if the form service is unreachable, shows phone + a
    pre-filled email so no enquiry is lost. To change services, edit ENDPOINT only. */
 (function () {
-  var ENDPOINT = "https://formsubmit.co/ajax/info@thetechbutler.ca";
+  var ENDPOINT = "https://formspree.io/f/xoeerpvw";
   var EMAIL = "info@thetechbutler.ca";
   var PHONE_DISPLAY = "519-671-2016";
   var PHONE_LINK = "tel:+15196712016";
@@ -41,7 +41,7 @@
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      if (form.elements["_honey"] && form.elements["_honey"].value) return;
+      if (form.elements["_gotcha"] && form.elements["_gotcha"].value) return;
       var btn = form.querySelector("button[type=submit]");
       var label = btn.textContent;
       btn.disabled = true;
