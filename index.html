@@ -35,7 +35,7 @@
         "@type": "LocalBusiness",
         "@id": "https://thetechbutler.ca/#business",
         "name": "The Tech Butler",
-        "description": "Professional smart home installation, automation, networking, AV, and property check-in services for homeowners in Collingwood, Blue Mountains, and Wasaga Beach, Ontario.",
+        "description": "Smart home installation, automation, Wi-Fi, AV and Home Tech Audits for homeowners in Collingwood, Blue Mountains and Wasaga Beach, Ontario. We come to you; there is no storefront.",
         "url": "https://thetechbutler.ca",
         "telephone": "+15196712016",
         "email": "info@thetechbutler.ca",
@@ -59,10 +59,15 @@
           "Smart Home Installation","Home Automation","Mesh Wi-Fi Installation","Smart Lock Installation",
           "Security Camera Installation","Video Doorbell Installation","Smart Thermostat Installation",
           "Home Theatre Installation","AV Installation","Network Setup","NAS Setup",
-          "Property Check-In Services","Aging in Place Technology"
+          "Home Tech Audit","Aging in Place Technology"
         ],
         "priceRange": "$$",
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "21:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "17:00" }
+        ],
         "sameAs": [
+          "https://maps.google.com/maps?cid=1555296787270344771",
           "https://www.facebook.com/profile.php?id=61584023875055",
           "https://www.instagram.com/the.techbutler"
         ]
@@ -92,11 +97,12 @@
       },
       {
         "@type": "Service",
-        "serviceType": "Property Check-In Services",
+        "serviceType": "Home Tech Audit",
         "provider": { "@id": "https://thetechbutler.ca/#business" },
         "areaServed": ["Collingwood, Ontario","Blue Mountains, Ontario","Wasaga Beach, Ontario"],
-        "description": "Regular property check-in services for absentee and remote homeowners. Visual inspection, smart home health check, and photo reporting.",
-        "url": "https://thetechbutler.ca/index.html#services"
+        "description": "An in-home walk-through of your doorbell, Wi-Fi coverage, cameras, locks, thermostat and smoke alarm alerts, with a written list of recommended fixes. $99, free with any installation.",
+        "offers": { "@type": "Offer", "price": "99.00", "priceCurrency": "CAD" },
+        "url": "https://thetechbutler.ca/home-tech-audit-collingwood.html"
       },
       {
         "@type": "Service",
